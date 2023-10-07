@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table class="calculator">
+<tr>
+    <td colspan="3"><input type="text" class="dispaly-box" id="result" disabled></td>
+    <td><input type="button" value="C" onclick="clearScreen()" id="btn"></td>
+
+</tr> 
+<tr>
+    <td><input type="button" value="1" onclick="dispaly('1')"></td>
+    <td><input type="button" value="2" onclick="dispaly('2')"></td>
+    <td><input type="button" value="3" onclick="dispaly('3')"></td>
+    <td><input type="button" value="/" onclick="dispaly('/')"></td>
+</tr>
+<tr>
+    <td><input type="button" value="4" onclick="dispaly('4')"></td>
+    <td><input type="button" value="5" onclick="dispaly('5')"></td>
+    <td><input type="button" value="6" onclick="dispaly('6')"></td>
+    <td><input type="button" value="-" onclick="dispaly('-')"></td>
+</tr>
+<tr>
+    <td><input type="button" value="7" onclick="dispaly('7')"></td>
+    <td><input type="button" value="8" onclick="dispaly('8')"></td>
+    <td><input type="button" value="9" onclick="dispaly('9')"></td>
+    <td><input type="button" value="+" onclick="dispaly('+')"></td>
+</tr>
+<tr>
+    <td><input type="button" value="." onclick="dispaly('.')"></td>
+    <td><input type="button" value="0" onclick="dispaly('0')"></td>
+    <td><input type="button" value="=" onclick="calculate('=')" id="btn"></td>
+    <td><input type="button" value="*" onclick="dispaly('*')"></td>
+</tr>
+</table>
+
+
+    
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
